@@ -1,0 +1,22 @@
+package:
+  name: react-dom
+  description: PureScript bindings for react-dom
+  publish:
+    license: MIT
+    version: 9.0.0
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-react-dom
+  dependencies:
+    - effect: ">=4.0.0 <5.0.0"
+    - functions: ">=6.0.0 <7.0.0"
+    - maybe: ">=6.0.0 <7.0.0"
+    - nullable: ">=6.0.0 <7.0.0"
+    - prelude: ">=6.0.1 <7.0.0"
+    - react: ">=11.0.0 <12.0.0"
+    - web-dom: ">=6.0.0 <7.0.0"
+  test:
+    main: Test.Main
+    dependencies:
+      - console
+workspace: {}
