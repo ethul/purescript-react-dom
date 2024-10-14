@@ -19,7 +19,4 @@ package:
     main: Test.Main
     dependencies:
       - console
-workspace:
-  extraPackages: {}
-  packageSet:
-    registry: 60.5.0
+workspace: {}
