@@ -3,7 +3,7 @@ package:
   description: PureScript bindings for react-dom
   publish:
     license: MIT
-    version: 8.0.0
+    version: 9.0.0
     location:
       githubOwner: purescript-contrib
       githubRepo: purescript-react-dom
